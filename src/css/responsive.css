@@ -1,0 +1,78 @@
+html {
+    font-size: 62.5%;
+    color: #fff;
+    font-family: "Lexend Deca";
+}
+
+.main {
+    background-color: hsl(233, 47%, 10%);
+    padding: 5rem 2rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    justify-content: center;
+}
+
+
+.images {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.all-content {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 0.5rem;
+    width: 320px;
+
+}
+
+.title-description {
+    text-align: center;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-description .title {
+    font-size: 2.6rem;
+    margin-top: 1rem;
+}
+
+.title-description .title span {
+    color: hsl(277, 64%, 61%);
+}
+
+.description {
+    color: hsl(0, 0%, 100%, 0.6);
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 0 1rem;
+    align-items: center;
+    line-height: 2.2rem;
+    margin-top: 1.4rem;
+}
+
+.statictics {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.statistic-container {
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.statistic-value {
+    font-size: 2.2rem;
+}
+
+.statistic-description {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%, 0.6);
+    margin-top: 0.4rem;
+}
